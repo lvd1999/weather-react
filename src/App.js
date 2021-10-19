@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './index.css';
 
 const api = {
   key: 'b88c97ba7ed736121b9d4c9442253be8',
@@ -8,10 +9,14 @@ const api = {
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <main>
         <div className="search-box">
-          <input type="text" className="search-bar" placeholder="search..." />
+          <input type="text" className="search-bar" placeholder="Search..." />
+        </div>
+        <div className="location-box">
+          <div className="location">New York City, US</div>
+          <div className="date"></div>
         </div>
       </main>
     </div>
