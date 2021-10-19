@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './App.css';
 import './index.css';
 
@@ -50,6 +51,10 @@ function App() {
         <div className="location-box">
           <div className="location">New York City, US</div>
           <div className="date">{dateBuilder(new Date())}</div>
+        </div>
+        <div className="weather-box">
+          <div className="temp">15c</div>
+          <div className="weather">Sunny</div>
         </div>
       </main>
     </div>
